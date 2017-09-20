@@ -3,3 +3,8 @@ var recipes = {
   sugar: "2 cups",
   butter: "1 stick"
 }
+
+function updateObjectWithKeyAndValue(obj, key, value){
+  obj[key] = value;
+  return obj;
+}
